@@ -17,6 +17,7 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.example.watermark710.databinding.ActivityShowBinding
 import java.io.ByteArrayOutputStream
@@ -72,6 +73,7 @@ class ShowActivity: AppCompatActivity() {
             bm = newbm!!
             if(!checkPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) ||
                 !checkPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
+                Toast.makeText(this, "권한문제", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
             //그림 저장
@@ -148,7 +150,7 @@ class ShowActivity: AppCompatActivity() {
 
         //권한이 없으면 권한 요청
         if (permissionChecker == PackageManager.PERMISSION_GRANTED) return true
-//        ActivityCompat.requestPermissions(activity, arrayOf(permission), )
+        ActivityCompat.requestPermissions(activity, arrayOf(permission), 3000)
         return false
     }
 

@@ -3,8 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/yeonw/WaterMark710/app/src/main/res/drawable/writeicon.xml" value="0.1955" />
+        <entry key="..\:/Users/yeonw/WaterMark710/app/src/main/res/layout/activity_diary.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/yeonw/WaterMark710/app/src/main/res/layout/activity_grid.xml" value="0.16590678824721378" />
+        <entry key="..\:/Users/yeonw/WaterMark710/app/src/main/res/layout/activity_login.xml" value="0.18" />
+        <entry key="..\:/Users/yeonw/WaterMark710/app/src/main/res/layout/activity_login2.xml" value="0.1875" />
         <entry key="..\:/Users/yeonw/WaterMark710/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/yeonw/WaterMark710/app/src/main/res/layout/activity_show.xml" value="0.1875" />
+        <entry key="..\:/Users/yeonw/WaterMark710/app/src/main/res/layout/activity_splash.xml" value="0.1875" />
+        <entry key="..\:/Users/yeonw/WaterMark710/app/src/main/res/layout/custom_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/yeonw/WaterMark710/app/src/main/res/layout/listview_item.xml" value="0.15391192817443353" />
       </map>
     </option>
   </component>
